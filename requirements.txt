@@ -1,0 +1,35 @@
+# Core dependencies
+opencv-python==4.8.1.78
+numpy==1.24.3
+flask==3.0.0
+
+# YOLOv8 and deep learning
+ultralytics==8.0.230
+torch==2.1.0
+torchvision==0.16.0
+
+# Optional but recommended for better performance
+Pillow==10.1.0
+matplotlib==3.7.2
+scipy==1.11.4
+
+# For GPU support (uncomment and adjust CUDA version as needed)
+# For CUDA 11.8:
+# torch==2.1.0+cu118
+# torchvision==0.16.0+cu118
+# --extra-index-url https://download.pytorch.org/whl/cu118
+
+# For CUDA 12.1:
+# torch==2.1.0+cu121
+# torchvision==0.16.0+cu121
+# --extra-index-url https://download.pytorch.org/whl/cu121
+
+# Threading and performance
+threadpoolctl==3.2.0
+
+# Video processing optimizations
+opencv-contrib-python==4.8.1.78
+
+# Additional utilities
+python-dateutil==2.8.2
+pytz==2023.3
